@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Admin Login</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="56x56"
+			href="images/logo/logo_01 - Copy.png" />
+		<style>
+		.container {
+			width: 300px;
+			margin: 0 auto;
+            margin-top: 150px;
+			padding: 20px;
+			border: 1px solid #ccc;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+		}
+		.form-group {
+			margin-bottom: 10px;
+		}
+		.form-group label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		.form-group input {
+			width: 100%;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 3px;
+			box-sizing: border-box;
+		}
+		.form-group button {
+			width: 100%;
+			padding: 5px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+	</style>
+	</head>
+	<body>
+		<div class="container">
+			<form>
+				<div class="form-group">
+					<label for="distributorCode">ADMIN LOG IN</label>
+					<input type="text" id="distributorCode" name="distributorCode"
+						placeholder="Distributor Code">
+				</div>
+				<div class="form-group">
+					<label for="userId">User Id</label>
+					<input type="text" id="userId" name="userId" placeholder="User Id">
+				</div>
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input type="password" id="password" name="password"
+						placeholder="Password">
+				</div>
+				<div class="form-group">
+					<button type="submit">Log In</button>
+				</div>
+				<div class="form-group">
+					<a href="#">Forgot Password</a>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
